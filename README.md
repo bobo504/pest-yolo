@@ -36,9 +36,9 @@ Pest-YOLO	  0.864	        0.874	      0.903 (-2.4%)	  0.478	     1,185,972 (-33%
 # Performance comparison of different lightweight backbones
 Model	            Precision	    Recall	    mAP50	          mAP50-95	 Parameters
 
-YOLOv5n-ghostnet	0.843         0.844       0.892           0.473	     1,362,697
+YOLOv5n-ghostnet	0.853         0.838       0.891           0.473	     1,362,697
 
-YOLOv5n-lcnet	    0.866         0.843       0.894           0.495	     1,188,349
+YOLOv5n-lcnet	    0.869         0.841       0.894           0.496	     1,188,349
 
 Pest-YOLO	        0.864	        0.874	      0.903	          0.478	     1,185,972
 
