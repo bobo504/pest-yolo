@@ -15,15 +15,18 @@ The trained weight file is available at: https://drive.google.com/drive/folders/
 pest-yolo-ip102.pt is the weight file for 102 pests.
 # Performance comparison of integrating CBAM
 Model	      Precision	    Recall	    mAP50	          mAP50-95	 Parameters
+
 YOLOv5n	    0.895	        0.91      	0.927	          0.525	     1,769,989
 YOLOv5n-M3	0.861	        0.87	      0.895 (-3.2%)	  0.476	     1,171,493 (-33.8%)
 Pest-YOLO	  0.864	        0.874	      0.903 (-2.4%)	  0.478	     1,185,972 (-33%)
 # Performance comparison of different lightweight backbones
 Model	            Precision	    Recall	    mAP50	          mAP50-95	 Parameters
+
 YOLOv5n-ghostnet	0.843         0.844       0.892           0.473	     1,362,697
 YOLOv5n-lcnet	    0.866         0.843       0.894           0.495	     1,188,349
 Pest-YOLO	        0.864	        0.874	      0.903	          0.478	     1,185,972
 # The pest-yolo-ip102 model performance
 Model	            Precision	    Recall	    mAP50	          mAP50-95
+
 pest-yolo-ip102   0.547         0.583       0.559           0.333
 
