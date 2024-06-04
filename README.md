@@ -2,17 +2,27 @@
 Pest-yolo: A lightweight YOLOv5n-based pest detection algorithm
 # usage
 The MobileNetv3, LCnet, and Ghostnet are defined in models/common.py.
+
 These modules are registered in yolo.py.
+
 The lightweight backbones are configured in models/yolo5n_pest/*.py.
+
 CBAM is defined in cbam.py
+
 # Environment Configuration
-Please see requirements.txt
+Please see requirements.txt.
+
 It is strongly recommended to use the latest YOLOv5 repository and integrate the above files into the latest code.
+
 YOLOv5:https://github.com/ultralytics/yolov5
+
 # Trained Weight File for detecting 8 pests
 8 pests: rice leaf roller, grub, wireworm, aphids, blister beetle, Miridae, unaspis_yanonensis, and Cicadellidae.
+
 The trained weight file is available at: https://drive.google.com/drive/folders/1lNFcXtO-4-Wrbmzxuebt8lxpbqON1DTU?usp=drive_link
+
 pest-yolo-ip102.pt is the weight file for 102 pests.
+
 # Performance comparison of integrating CBAM
 
 Model	      Precision	    Recall	    mAP50	          mAP50-95	 Parameters
